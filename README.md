@@ -12,16 +12,16 @@ Title: Hospital Management System Project - Java Implementation
    • Define user requirements and system functionalities.
 
 2. Design Phase:
-     • Craft comprehensive software diagrams for visual representation and understanding.
-     • Entity Relationship Diagram (ERD)
-     • Schema
-     • Use Case Diagram
-     • Sequence Diagram
-     • Activity Diagram
-     • Class Diagram
-     • Context Diagram
-     • Data Flow Diagram (DFD)
-     • the all diagrams and requirement of project are in: [Link](https://lnkd.in/dRqEVbPG)
+  • Craft comprehensive software diagrams for visual representation and understanding.
+  • Entity Relationship Diagram (ERD)
+  • Schema
+  • Use Case Diagram
+  • Sequence Diagram
+  • Activity Diagram
+  • Class Diagram
+  • Context Diagram
+  • Data Flow Diagram (DFD)
+  • All diagrams and requirements of the project can be found here: [Link](https://lnkd.in/dRqEVbPG)
        
 3. Implementation:
    • Develop the user interface using Java Swing GUI with event handling.
