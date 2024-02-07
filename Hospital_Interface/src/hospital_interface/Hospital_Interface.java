@@ -1,7 +1,5 @@
-
-//   username  : khalid 
+//   username  : khalid_gad 
 //   password  : 1321
-
 
 package hospital_interface;
 
@@ -1054,15 +1052,16 @@ public class Hospital_Interface extends Frame implements ActionListener
 
         if (ae.getSource()==submitpass)
         {
-         if(usertext.getText().equals("khalid")&&passtext.getText().equals("1321"))
+         if(usertext.getText().equals("ahmed_adel")&&passtext.getText().equals("1621"))
          {
-             chooseframe.setVisible(true);
-             setVisible(false);
              usertext.setText("");
              passtext.setText("");
+             chooseframe.setVisible(true);
+             setVisible(false);
          }
-         else 
-             telllabel.setText("Wrong Username or Password try again :");
+         else
+             telllabel.setText("Wrong Username or Password !! try again :");
+             telllabel.setForeground(Color.RED);
              usertext.setText("");
              passtext.setText("");
         }
@@ -1085,6 +1084,8 @@ public class Hospital_Interface extends Frame implements ActionListener
         {
             setVisible(true);
             chooseframe.setVisible(false);
+             telllabel.setText("Please, Enter your Username & Password :");
+             telllabel.setForeground(Color.BLACK);
         }
          
           
